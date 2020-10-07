@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  weasyprint:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./layers:/usr/src/app/
+  

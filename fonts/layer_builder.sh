@@ -25,4 +25,4 @@ cat > /opt/fonts/fonts.conf <<EOF
 EOF
 
 cd /opt
-zip -r9 /out/layer.zip fonts/*
+zip -r9 /usr/src/build/layer.zip fonts/*
